@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/1221/Desktop/Acadamy AIM 2/week8-9/mlflow/runs/389404006315200088/9c2acc8e576646f8b7e2fbf18c870095/artifacts
+end_time: 1729977605158
+entry_point_name: ''
+experiment_id: '389404006315200088'
+lifecycle_stage: active
+run_id: 9c2acc8e576646f8b7e2fbf18c870095
+run_name: efficient-flea-277
+run_uuid: 9c2acc8e576646f8b7e2fbf18c870095
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729977421496
+status: 3
+tags: []
+user_id: '1221'

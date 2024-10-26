@@ -5,8 +5,8 @@ import pandas as pd
 
 app = dash.Dash(__name__)
 
-# Load data
-df = pd.read_csv('../data/processed_data.csv')
+# Load dataset
+df = pd.read_csv('C:\\Users\\1221\\Desktop\\Acadamy AIM 2\\week8-9\\data\\creditcard.csv')
 
 app.layout = html.Div([
     html.H1('Fraud Detection Dashboard'),
