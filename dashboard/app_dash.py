@@ -1,26 +1,11 @@
-import dash
-from dash import dcc, html
-import plotly.express as px
-import pandas as pd
+from app_instance import app  # Import the app instance
+from layout import create_layout  # Import the layout
+import callbacks  # Import callbacks to register them
 
-app = dash.Dash(__name__)
 
-# Load dataset
-df = pd.read_csv('C:\\Users\\1221\\Desktop\\Acadamy AIM 2\\week8-9\\data\\creditcard.csv')
+# Assign the layout from layout.py
+app.layout = create_layout(app)
 
-app.layout = html.Div([
-    html.H1('Fraud Detection Dashboard'),
-    html.Div([
-        html.H2('Summary Statistics'),
-        html.P(f'Total Transactions: {df.shape[0]}'),
-        html.P(f'Total Fraud Cases: {df[df["Class"] == 1].shape[0]}'),
-        html.P(f'Fraud Percentage: {df[df["Class"] == 1].shape[0] / df.shape[0] * 100:.2f}%')
-    ]),
-    dcc.Graph(
-        id='fraud-trend-chart',
-        figure=px.line(df, x='Time', y='Class', title='Fraud Cases Over Time')
-    )
-])
-
+# Run the app
 if __name__ == '__main__':
     app.run_server(debug=True)

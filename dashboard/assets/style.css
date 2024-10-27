@@ -1,0 +1,93 @@
+/* Adjust margins */
+.mb-4 {
+    margin-bottom: 1.5rem;
+}
+
+/* Center the header */
+h1 {
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #4A4A4A; /* Dark gray for the main header */
+}
+
+/* Style for the subtitle */
+h6 {
+    text-align: left;
+    margin-top: 20px;
+    color: #6B6B6B; /* Medium gray for the subtitle */
+}
+
+/* Center the card titles */
+h5 {
+    text-align: center;
+    margin-top: 20px;
+    color: #007BFF; /* Bootstrap primary color (blue) for card titles */
+}
+
+/* Margin for card body */
+.mb-2 {
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+    text-align: center;
+}
+
+/* Add styles for card backgrounds */
+.card {
+    background-color: #F8F9FA; /* Light gray background for cards */
+    border: 2px solid #E0E0E0; /* Slightly darker border for cards */
+    border-radius: 10px; /* Rounded corners for cards */
+}
+
+/* Add different border colors for each card */
+.card:nth-child(1) {
+    border-color: #007BFF; /* Blue border for Total Transactions card */
+}
+.card:nth-child(2) {
+    border-color: #28A745; /* Green border for Fraudulent Transactions card */
+}
+.card:nth-child(3) {
+    border-color: #FFC107; /* Yellow border for Fraud Rate card */
+}
+
+/* Add hover effects to cards */
+.card:hover {
+    background-color: #E9ECEF; /* Slightly darker on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow effect on hover */
+}
+
+/* Style for transaction counts */
+.card-title {
+    color: #333; /* Dark gray for the card title text */
+}
+
+.card-text {
+    color: #28A745; /* Bootstrap success color (green) for numbers */
+    font-weight: bold; /* Make numbers bold */
+}
+
+/* Style for graphs */
+.dcc-Graph {
+    border: 2px solid #007BFF; /* Blue border around graphs */
+    border-radius: 5px; /* Rounded corners for graphs */
+    margin-top: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow effect for graphs */
+}
+
+/* Style for dropdown labels */
+label {
+    color: #495057; /* Dark gray for dropdown labels */
+}
+
+/* Add hover effects to dropdowns */
+.dcc-dropdown:hover {
+    border: 2px solid #007BFF; /* Blue border on hover for dropdowns */
+}
+
+/* Style for the overall container */
+.container {
+    background-color: #FFFFFF; /* White background for the main container */
+    padding: 20px; /* Padding around the container */
+    border-radius: 10px; /* Rounded corners for the container */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Shadow for the container */
+}
