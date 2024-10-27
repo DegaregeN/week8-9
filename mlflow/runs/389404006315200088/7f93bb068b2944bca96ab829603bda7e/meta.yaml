@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/1221/Desktop/Acadamy AIM 2/week8-9/mlflow/runs/389404006315200088/7f93bb068b2944bca96ab829603bda7e/artifacts
+end_time: 1730033135156
+entry_point_name: ''
+experiment_id: '389404006315200088'
+lifecycle_stage: active
+run_id: 7f93bb068b2944bca96ab829603bda7e
+run_name: stately-mink-940
+run_uuid: 7f93bb068b2944bca96ab829603bda7e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1730032964484
+status: 3
+tags: []
+user_id: '1221'
